@@ -1,0 +1,21 @@
+<svg width="520" height="340" viewBox="0 0 520 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="520" height="340" rx="28" fill="url(#bg)"/>
+  <path d="M72 178C72 123.324 116.324 79 171 79H349C403.676 79 448 123.324 448 178V202C448 256.676 403.676 301 349 301H171C116.324 301 72 256.676 72 202V178Z" fill="#071845"/>
+  <path d="M88 178C88 132.161 125.161 95 171 95H349C394.839 95 432 132.161 432 178V202C432 247.839 394.839 285 349 285H171C125.161 285 88 247.839 88 202V178Z" fill="url(#screen)"/>
+  <path d="M122 220C176 184 232 168 292 166C338 164 380 150 406 132V282H104V248C108 242 114 234 122 220Z" fill="url(#flow)" opacity="0.92"/>
+  <defs>
+    <linearGradient id="bg" x1="26" y1="16" x2="486" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7FBFF"/>
+      <stop offset="1" stop-color="#DDEEFF"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="106" y1="112" x2="418" y2="270" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00339A"/>
+      <stop offset="0.55" stop-color="#007BFF"/>
+      <stop offset="1" stop-color="#00C8FF"/>
+    </linearGradient>
+    <linearGradient id="flow" x1="138" y1="176" x2="382" y2="280" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7FEFF"/>
+      <stop offset="1" stop-color="#AFECFF" stop-opacity="0.32"/>
+    </linearGradient>
+  </defs>
+</svg>

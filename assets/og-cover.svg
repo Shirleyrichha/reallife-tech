@@ -1,0 +1,22 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" rx="36" fill="url(#bg)"/>
+  <rect x="642" y="126" width="420" height="240" rx="26" fill="#071947"/>
+  <rect x="660" y="144" width="384" height="204" rx="18" fill="url(#screen)"/>
+  <path d="M692 298C736 262 796 238 854 238C910 238 964 214 1022 168V348H660V326C666 320 678 308 692 298Z" fill="url(#flow)"/>
+  <text x="104" y="250" fill="#0B1D3A" font-family="Segoe UI, Arial, sans-serif" font-size="64" font-weight="700">Reallife Technology Ltd.</text>
+  <text x="104" y="322" fill="#24507F" font-family="Segoe UI, Arial, sans-serif" font-size="28">Advanced display solutions for gaming, office, professional and AI-ready environments.</text>
+  <defs>
+    <linearGradient id="bg" x1="46" y1="18" x2="1124" y2="590" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F4FBFF"/>
+      <stop offset="1" stop-color="#DBEEFF"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="676" y1="150" x2="1040" y2="340" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0040B0"/>
+      <stop offset="1" stop-color="#00C8FF"/>
+    </linearGradient>
+    <linearGradient id="flow" x1="706" y1="250" x2="996" y2="340" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FFFF"/>
+      <stop offset="1" stop-color="#B3EFFF" stop-opacity="0.34"/>
+    </linearGradient>
+  </defs>
+</svg>
