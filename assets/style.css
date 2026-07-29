@@ -638,6 +638,73 @@ p {
   }
 }
 
+/* Keep the final visual language close to the reference: white, flat and editorial. */
+body {
+  background: #fff;
+}
+
+:root {
+  --surface: #fff;
+  --surface-strong: #fff;
+  --line: #e6e6e6;
+  --radius: 0;
+  --shadow: 0 4px 18px rgba(0, 0, 0, 0.06);
+}
+
+.header {
+  background: rgba(255, 255, 255, 0.98);
+  border-bottom: 1px solid #eee;
+  backdrop-filter: none;
+}
+
+.brand-mark,
+.button-primary,
+.nav-cta {
+  border-radius: 0;
+}
+
+.button,
+.eyebrow {
+  border-radius: 0;
+}
+
+.hero-metrics li,
+.contact-card,
+.panel,
+.taxonomy-card,
+.category-card,
+.product-panel,
+.feature-band,
+.contact-form,
+.detail-image-card,
+.category-feature,
+.spec-card {
+  border-radius: 0;
+  box-shadow: none;
+  border-color: #e7e7e7;
+}
+
+.feature-band,
+.category-feature,
+.contact-card,
+.contact-form,
+.panel {
+  background: #fff;
+}
+
+.hero-visual img,
+.feature-art img,
+.story-slider img,
+.product-panel img,
+.detail-hero-image img,
+.detail-image-card img {
+  border-radius: 0;
+}
+
+.nav a::after {
+  bottom: -1px;
+}
+
 .contact-form {
   display: grid;
   gap: 18px;
