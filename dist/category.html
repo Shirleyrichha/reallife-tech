@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Display Category | Reallife Technology Ltd.</title>
+  <meta name="description" content="Explore display monitor categories from Reallife Technology Ltd. for gaming, office, professional, ultrawide, portable and smart applications.">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <div class="site-shell">
+    <header class="topbar"><div class="container topbar-inner"><p>Full Range Display Solutions from 15&quot; to 49&quot;, 60Hz to 600Hz, FHD to 6K</p><a href="mailto:sales01@reallife-tech.com">sales01@reallife-tech.com</a></div></header>
+    <header class="header"><div class="container nav-wrap"><a class="brand" href="index.html"><span class="brand-mark">R</span><span><strong>Reallife Technology Ltd.</strong><small>Display Innovation Partner</small></span></a><button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span></button><nav class="nav" id="site-nav"><a href="products.html" class="is-active">Products</a><a href="solutions.html">Solutions</a><a href="technology.html">Technology</a><a href="about.html">About Us</a><a href="news.html">News</a><a href="support.html">Support</a><a href="contact.html" class="nav-cta">Contact</a></nav></div></header>
+    <main><section class="page-hero category-hero"><div class="container"><p class="eyebrow">Product Category</p><h1 id="category-title">Display Solutions</h1><p id="category-intro">Configurable display platforms for focused performance and dependable deployment.</p></div></section><section class="section"><div class="container category-feature"><div class="detail-grid"><div><p class="eyebrow" id="category-kicker">Reallife Technology</p><h2 id="category-heading">Built for your next product program.</h2><p id="category-copy">We combine panel selection, electronics integration, mechanical design and production validation to support reliable display products across global markets.</p><ul class="detail-list"><li>OEM and ODM configuration support</li><li>Panel, stand, firmware and packaging options</li><li>Sample evaluation and production coordination</li></ul><a class="button button-primary" href="contact.html">Request a Quote</a></div><div class="detail-image-card"><img id="category-image" src="assets/category-office.svg" alt="Display category illustration" width="560" height="420"></div></div></div></section><section class="section"><div class="container section-heading"><p class="eyebrow">Explore More</p><h2>Find the right display direction.</h2><p>Move between categories or contact our team for a specification-led recommendation.</p><div class="button-row"><a class="button button-secondary" href="products.html">All Products</a><a class="button button-secondary" href="ai-touch-display.html">AI Touch Display</a><a class="button button-primary" href="contact.html">Contact Us</a></div></div></section></main>
+    <footer class="footer"><div class="container footer-grid"><div><a class="brand footer-brand" href="index.html"><span class="brand-mark">R</span><span><strong>Reallife Technology Ltd.</strong><small>Display Innovation Partner</small></span></a><p>Premium display technologies for global OEM, ODM and distribution programs.</p></div><div><h3>Contact</h3><ul class="footer-list"><li><a href="mailto:sales01@reallife-tech.com">sales01@reallife-tech.com</a></li><li><a href="https://wa.me/8617625914424">+86 17625914424</a></li><li>2nd Floor, West Staircase, Building A, Shibei Industrial Park, No. 243 Shibei Industrial Road, Dashi Subdistrict, Panyu District, Guangzhou, CN</li></ul></div></div><div class="container footer-bottom"><p>Copyright Reallife Technology Ltd.</p></div></footer>
+  </div>
+  <script>
+    const catalog = {
+      gaming: {title:"Gaming Monitors", intro:"High-refresh display platforms for esports, entertainment and enthusiast gaming setups.", kicker:"Fast Visual Response", heading:"Built for every decisive frame.", copy:"Choose rapid refresh, responsive pixel transitions, immersive contrast and ergonomic mechanics for gaming brands and channel programs.", image:"assets/category-gaming.svg"},
+      office: {title:"Office Monitors", intro:"Clear, comfortable productivity displays for everyday work and multi-screen deployment.", kicker:"Productivity Display", heading:"Clarity that works all day.", copy:"Balanced brightness, ergonomic flexibility, efficient connectivity and dependable deployment for offices, education and managed workspaces.", image:"assets/category-office.svg"},
+      professional: {title:"Professional Monitors", intro:"Color-focused display platforms for design, media, studio and technical visualization.", kicker:"Color & Detail", heading:"Confidence for critical visual work.", copy:"Support demanding review environments with carefully selected panels, stable image performance and tailored connectivity.", image:"assets/category-pro.svg"},
+      ultrawide: {title:"Ultrawide Monitors", intro:"Wide-format workspaces for dashboards, editing timelines and high-density multitasking.", kicker:"Panoramic Workspace", heading:"More room for the complete picture.", copy:"Create immersive 21:9 and 32:9 display programs with strong visual continuity and flexible desktop integration.", image:"assets/category-ultrawide.svg"},
+      portable: {title:"Portable Monitors", intro:"Lightweight second-screen solutions for travel, demonstrations and mobile work.", kicker:"Work Anywhere", heading:"A second screen that moves with you.", copy:"Compact designs, USB-C convenience, protective accessories and brand-ready packaging for mobile professionals.", image:"assets/category-portable.svg"},
+      smart: {title:"Smart Displays", intro:"Connected display platforms for retail, kiosks, meeting spaces and commercial environments.", kicker:"Connected Display", heading:"Visual hardware ready for integration.", copy:"Combine display performance with embedded system capability, flexible interfaces and application-specific mechanical options.", image:"assets/category-smart.svg"}
+    };
+    const type = new URLSearchParams(location.search).get("type") || "office";
+    const item = catalog[type] || catalog.office;
+    document.title = item.title + " | Reallife Technology Ltd.";
+    document.querySelector("#category-title").textContent = item.title;
+    document.querySelector("#category-intro").textContent = item.intro;
+    document.querySelector("#category-kicker").textContent = item.kicker;
+    document.querySelector("#category-heading").textContent = item.heading;
+    document.querySelector("#category-copy").textContent = item.copy;
+    document.querySelector("#category-image").src = item.image;
+    document.querySelector("#category-image").alt = item.title + " illustration";
+  </script>
+  <script src="assets/main.js" defer></script>
+</body>
+</html>
