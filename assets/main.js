@@ -19,15 +19,3 @@ const observer = new IntersectionObserver((entries) => {
 }, { threshold: 0.16 });
 
 document.querySelectorAll(".reveal").forEach((node) => observer.observe(node));
-
-const form = document.querySelector(".contact-form");
-if (form) {
-  form.addEventListener("submit", (event) => {
-    event.preventDefault();
-    const button = form.querySelector("button");
-    if (button) {
-      button.textContent = "Submitted";
-      button.setAttribute("disabled", "true");
-    }
-  });
-}
